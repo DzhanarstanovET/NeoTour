@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13F21CD3BB69BF79CE95B225 /* Pods_NeoTour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782029C631C0AE22C3479F36 /* Pods_NeoTour.framework */; };
+		2081AE0D870C102AE2B3BF91 /* Pods_NeoTourTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73F80F025C3F717A2683C05 /* Pods_NeoTourTests.framework */; };
+		85E537A52B80690E006961DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E537A42B80690E006961DC /* AppDelegate.swift */; };
+		85E537A72B80690E006961DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E537A62B80690E006961DC /* SceneDelegate.swift */; };
+		85E537A92B80690E006961DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E537A82B80690E006961DC /* ViewController.swift */; };
+		85E537AC2B80690E006961DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E537AA2B80690E006961DC /* Main.storyboard */; };
+		85E537AF2B80690F006961DC /* NeoTour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85E537AD2B80690F006961DC /* NeoTour.xcdatamodeld */; };
+		85E537B12B806913006961DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E537B02B806913006961DC /* Assets.xcassets */; };
+		85E537B42B806913006961DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E537B22B806913006961DC /* LaunchScreen.storyboard */; };
+		85E537BF2B806913006961DC /* NeoTourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E537BE2B806913006961DC /* NeoTourTests.swift */; };
+		85E537C92B806913006961DC /* NeoTourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E537C82B806913006961DC /* NeoTourUITests.swift */; };
+		85E537CB2B806913006961DC /* NeoTourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E537CA2B806913006961DC /* NeoTourUITestsLaunchTests.swift */; };
+		93989843522966F9B54AA5C0 /* Pods_NeoTour_NeoTourUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A48DFB5C2E85A847BDC0AF /* Pods_NeoTour_NeoTourUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85E537BB2B806913006961DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85E537992B80690E006961DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85E537A02B80690E006961DC;
+			remoteInfo = NeoTour;
+		};
+		85E537C52B806913006961DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85E537992B80690E006961DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85E537A02B80690E006961DC;
+			remoteInfo = NeoTour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EC6CDA14FB69287A6C76D4 /* Pods-NeoTour-NeoTourUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoTour-NeoTourUITests.release.xcconfig"; path = "Target Support Files/Pods-NeoTour-NeoTourUITests/Pods-NeoTour-NeoTourUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41A48DFB5C2E85A847BDC0AF /* Pods_NeoTour_NeoTourUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoTour_NeoTourUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54401F6F02A8A28FA0C7DD04 /* Pods-NeoTourTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoTourTests.release.xcconfig"; path = "Target Support Files/Pods-NeoTourTests/Pods-NeoTourTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BD0AD9487579540981F3017 /* Pods-NeoTour-NeoTourUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoTour-NeoTourUITests.debug.xcconfig"; path = "Target Support Files/Pods-NeoTour-NeoTourUITests/Pods-NeoTour-NeoTourUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		782029C631C0AE22C3479F36 /* Pods_NeoTour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoTour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E537A12B80690E006961DC /* NeoTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E537A42B80690E006961DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85E537A62B80690E006961DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85E537A82B80690E006961DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85E537AB2B80690E006961DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85E537AE2B80690F006961DC /* NeoTour.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeoTour.xcdatamodel; sourceTree = "<group>"; };
+		85E537B02B806913006961DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85E537B32B806913006961DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85E537B52B806913006961DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E537BA2B806913006961DC /* NeoTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E537BE2B806913006961DC /* NeoTourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoTourTests.swift; sourceTree = "<group>"; };
+		85E537C42B806913006961DC /* NeoTourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoTourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E537C82B806913006961DC /* NeoTourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoTourUITests.swift; sourceTree = "<group>"; };
+		85E537CA2B806913006961DC /* NeoTourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoTourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98C44EFEA5C835F789643C74 /* Pods-NeoTourTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoTourTests.debug.xcconfig"; path = "Target Support Files/Pods-NeoTourTests/Pods-NeoTourTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE9EF4A373CD3242B9BD1632 /* Pods-NeoTour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoTour.release.xcconfig"; path = "Target Support Files/Pods-NeoTour/Pods-NeoTour.release.xcconfig"; sourceTree = "<group>"; };
+		C73F80F025C3F717A2683C05 /* Pods_NeoTourTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoTourTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD68ECA050777BCD304FB98F /* Pods-NeoTour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoTour.debug.xcconfig"; path = "Target Support Files/Pods-NeoTour/Pods-NeoTour.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85E5379E2B80690E006961DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F21CD3BB69BF79CE95B225 /* Pods_NeoTour.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E537B72B806913006961DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2081AE0D870C102AE2B3BF91 /* Pods_NeoTourTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E537C12B806913006961DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93989843522966F9B54AA5C0 /* Pods_NeoTour_NeoTourUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46AACAEC96D0C9932A0A9575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782029C631C0AE22C3479F36 /* Pods_NeoTour.framework */,
+				41A48DFB5C2E85A847BDC0AF /* Pods_NeoTour_NeoTourUITests.framework */,
+				C73F80F025C3F717A2683C05 /* Pods_NeoTourTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85E537982B80690E006961DC = {
+			isa = PBXGroup;
+			children = (
+				85E537A32B80690E006961DC /* NeoTour */,
+				85E537BD2B806913006961DC /* NeoTourTests */,
+				85E537C72B806913006961DC /* NeoTourUITests */,
+				85E537A22B80690E006961DC /* Products */,
+				C7BC95C97CFA5815ECC4900C /* Pods */,
+				46AACAEC96D0C9932A0A9575 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85E537A22B80690E006961DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85E537A12B80690E006961DC /* NeoTour.app */,
+				85E537BA2B806913006961DC /* NeoTourTests.xctest */,
+				85E537C42B806913006961DC /* NeoTourUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85E537A32B80690E006961DC /* NeoTour */ = {
+			isa = PBXGroup;
+			children = (
+				85E537DB2B807185006961DC /* Resourcess */,
+				85E537DA2B807171006961DC /* Core */,
+				85E537D92B80715E006961DC /* Common */,
+				85E537D82B80713F006961DC /* Generated */,
+				85E537D72B807113006961DC /* Modules */,
+				85E537A42B80690E006961DC /* AppDelegate.swift */,
+				85E537A62B80690E006961DC /* SceneDelegate.swift */,
+				85E537A82B80690E006961DC /* ViewController.swift */,
+				85E537AA2B80690E006961DC /* Main.storyboard */,
+				85E537B22B806913006961DC /* LaunchScreen.storyboard */,
+				85E537B52B806913006961DC /* Info.plist */,
+				85E537AD2B80690F006961DC /* NeoTour.xcdatamodeld */,
+			);
+			path = NeoTour;
+			sourceTree = "<group>";
+		};
+		85E537BD2B806913006961DC /* NeoTourTests */ = {
+			isa = PBXGroup;
+			children = (
+				85E537BE2B806913006961DC /* NeoTourTests.swift */,
+			);
+			path = NeoTourTests;
+			sourceTree = "<group>";
+		};
+		85E537C72B806913006961DC /* NeoTourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85E537C82B806913006961DC /* NeoTourUITests.swift */,
+				85E537CA2B806913006961DC /* NeoTourUITestsLaunchTests.swift */,
+			);
+			path = NeoTourUITests;
+			sourceTree = "<group>";
+		};
+		85E537D72B807113006961DC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		85E537D82B80713F006961DC /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		85E537D92B80715E006961DC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		85E537DA2B807171006961DC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		85E537DB2B807185006961DC /* Resourcess */ = {
+			isa = PBXGroup;
+			children = (
+				85E537B02B806913006961DC /* Assets.xcassets */,
+			);
+			path = Resourcess;
+			sourceTree = "<group>";
+		};
+		C7BC95C97CFA5815ECC4900C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD68ECA050777BCD304FB98F /* Pods-NeoTour.debug.xcconfig */,
+				BE9EF4A373CD3242B9BD1632 /* Pods-NeoTour.release.xcconfig */,
+				6BD0AD9487579540981F3017 /* Pods-NeoTour-NeoTourUITests.debug.xcconfig */,
+				08EC6CDA14FB69287A6C76D4 /* Pods-NeoTour-NeoTourUITests.release.xcconfig */,
+				98C44EFEA5C835F789643C74 /* Pods-NeoTourTests.debug.xcconfig */,
+				54401F6F02A8A28FA0C7DD04 /* Pods-NeoTourTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85E537A02B80690E006961DC /* NeoTour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E537CE2B806913006961DC /* Build configuration list for PBXNativeTarget "NeoTour" */;
+			buildPhases = (
+				F28DA2DAAED4B1C56E02EE88 /* [CP] Check Pods Manifest.lock */,
+				85E5379D2B80690E006961DC /* Sources */,
+				85E5379E2B80690E006961DC /* Frameworks */,
+				85E5379F2B80690E006961DC /* Resources */,
+				FE90C3C5CA3AD3D73C4B11CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoTour;
+			productName = NeoTour;
+			productReference = 85E537A12B80690E006961DC /* NeoTour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85E537B92B806913006961DC /* NeoTourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E537D12B806913006961DC /* Build configuration list for PBXNativeTarget "NeoTourTests" */;
+			buildPhases = (
+				77D59D0006A0646241B22A2F /* [CP] Check Pods Manifest.lock */,
+				85E537B62B806913006961DC /* Sources */,
+				85E537B72B806913006961DC /* Frameworks */,
+				85E537B82B806913006961DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85E537BC2B806913006961DC /* PBXTargetDependency */,
+			);
+			name = NeoTourTests;
+			productName = NeoTourTests;
+			productReference = 85E537BA2B806913006961DC /* NeoTourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85E537C32B806913006961DC /* NeoTourUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E537D42B806913006961DC /* Build configuration list for PBXNativeTarget "NeoTourUITests" */;
+			buildPhases = (
+				BB3BF1839CBDF1C852821716 /* [CP] Check Pods Manifest.lock */,
+				85E537C02B806913006961DC /* Sources */,
+				85E537C12B806913006961DC /* Frameworks */,
+				85E537C22B806913006961DC /* Resources */,
+				1A2B570650D3FC855DFC2F83 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85E537C62B806913006961DC /* PBXTargetDependency */,
+			);
+			name = NeoTourUITests;
+			productName = NeoTourUITests;
+			productReference = 85E537C42B806913006961DC /* NeoTourUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85E537992B80690E006961DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					85E537A02B80690E006961DC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					85E537B92B806913006961DC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 85E537A02B80690E006961DC;
+					};
+					85E537C32B806913006961DC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 85E537A02B80690E006961DC;
+					};
+				};
+			};
+			buildConfigurationList = 85E5379C2B80690E006961DC /* Build configuration list for PBXProject "NeoTour" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85E537982B80690E006961DC;
+			productRefGroup = 85E537A22B80690E006961DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85E537A02B80690E006961DC /* NeoTour */,
+				85E537B92B806913006961DC /* NeoTourTests */,
+				85E537C32B806913006961DC /* NeoTourUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85E5379F2B80690E006961DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E537B42B806913006961DC /* LaunchScreen.storyboard in Resources */,
+				85E537B12B806913006961DC /* Assets.xcassets in Resources */,
+				85E537AC2B80690E006961DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E537B82B806913006961DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E537C22B806913006961DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A2B570650D3FC855DFC2F83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoTour-NeoTourUITests/Pods-NeoTour-NeoTourUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoTour-NeoTourUITests/Pods-NeoTour-NeoTourUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeoTour-NeoTourUITests/Pods-NeoTour-NeoTourUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D59D0006A0646241B22A2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoTourTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3BF1839CBDF1C852821716 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoTour-NeoTourUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F28DA2DAAED4B1C56E02EE88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoTour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE90C3C5CA3AD3D73C4B11CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoTour/Pods-NeoTour-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoTour/Pods-NeoTour-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeoTour/Pods-NeoTour-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85E5379D2B80690E006961DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E537AF2B80690F006961DC /* NeoTour.xcdatamodeld in Sources */,
+				85E537A92B80690E006961DC /* ViewController.swift in Sources */,
+				85E537A52B80690E006961DC /* AppDelegate.swift in Sources */,
+				85E537A72B80690E006961DC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E537B62B806913006961DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E537BF2B806913006961DC /* NeoTourTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E537C02B806913006961DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E537C92B806913006961DC /* NeoTourUITests.swift in Sources */,
+				85E537CB2B806913006961DC /* NeoTourUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85E537BC2B806913006961DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85E537A02B80690E006961DC /* NeoTour */;
+			targetProxy = 85E537BB2B806913006961DC /* PBXContainerItemProxy */;
+		};
+		85E537C62B806913006961DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85E537A02B80690E006961DC /* NeoTour */;
+			targetProxy = 85E537C52B806913006961DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85E537AA2B80690E006961DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E537AB2B80690E006961DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85E537B22B806913006961DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E537B32B806913006961DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85E537CC2B806913006961DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85E537CD2B806913006961DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85E537CF2B806913006961DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD68ECA050777BCD304FB98F /* Pods-NeoTour.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeoTour/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erzhan.NeoTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85E537D02B806913006961DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9EF4A373CD3242B9BD1632 /* Pods-NeoTour.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeoTour/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erzhan.NeoTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85E537D22B806913006961DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C44EFEA5C835F789643C74 /* Pods-NeoTourTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erzhan.NeoTourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoTour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeoTour";
+			};
+			name = Debug;
+		};
+		85E537D32B806913006961DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54401F6F02A8A28FA0C7DD04 /* Pods-NeoTourTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erzhan.NeoTourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoTour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeoTour";
+			};
+			name = Release;
+		};
+		85E537D52B806913006961DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD0AD9487579540981F3017 /* Pods-NeoTour-NeoTourUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erzhan.NeoTourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeoTour;
+			};
+			name = Debug;
+		};
+		85E537D62B806913006961DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EC6CDA14FB69287A6C76D4 /* Pods-NeoTour-NeoTourUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = erzhan.NeoTourUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeoTour;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85E5379C2B80690E006961DC /* Build configuration list for PBXProject "NeoTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E537CC2B806913006961DC /* Debug */,
+				85E537CD2B806913006961DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E537CE2B806913006961DC /* Build configuration list for PBXNativeTarget "NeoTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E537CF2B806913006961DC /* Debug */,
+				85E537D02B806913006961DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E537D12B806913006961DC /* Build configuration list for PBXNativeTarget "NeoTourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E537D22B806913006961DC /* Debug */,
+				85E537D32B806913006961DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E537D42B806913006961DC /* Build configuration list for PBXNativeTarget "NeoTourUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E537D52B806913006961DC /* Debug */,
+				85E537D62B806913006961DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85E537AD2B80690F006961DC /* NeoTour.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85E537AE2B80690F006961DC /* NeoTour.xcdatamodel */,
+			);
+			currentVersion = 85E537AE2B80690F006961DC /* NeoTour.xcdatamodel */;
+			path = NeoTour.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 85E537992B80690E006961DC /* Project object */;
+}

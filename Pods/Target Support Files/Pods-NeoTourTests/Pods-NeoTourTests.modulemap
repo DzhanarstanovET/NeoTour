@@ -1,0 +1,6 @@
+framework module Pods_NeoTourTests {
+  umbrella header "Pods-NeoTourTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
