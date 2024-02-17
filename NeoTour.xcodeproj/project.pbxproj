@@ -11,7 +11,6 @@
 		2081AE0D870C102AE2B3BF91 /* Pods_NeoTourTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73F80F025C3F717A2683C05 /* Pods_NeoTourTests.framework */; };
 		85E537A52B80690E006961DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E537A42B80690E006961DC /* AppDelegate.swift */; };
 		85E537A72B80690E006961DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E537A62B80690E006961DC /* SceneDelegate.swift */; };
-		85E537A92B80690E006961DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E537A82B80690E006961DC /* ViewController.swift */; };
 		85E537AC2B80690E006961DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E537AA2B80690E006961DC /* Main.storyboard */; };
 		85E537AF2B80690F006961DC /* NeoTour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85E537AD2B80690F006961DC /* NeoTour.xcdatamodeld */; };
 		85E537B12B806913006961DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E537B02B806913006961DC /* Assets.xcassets */; };
@@ -48,7 +47,6 @@
 		85E537A12B80690E006961DC /* NeoTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E537A42B80690E006961DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85E537A62B80690E006961DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85E537A82B80690E006961DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		85E537AB2B80690E006961DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85E537AE2B80690F006961DC /* NeoTour.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeoTour.xcdatamodel; sourceTree = "<group>"; };
 		85E537B02B806913006961DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 				85E537D72B807113006961DC /* Modules */,
 				85E537A42B80690E006961DC /* AppDelegate.swift */,
 				85E537A62B80690E006961DC /* SceneDelegate.swift */,
-				85E537A82B80690E006961DC /* ViewController.swift */,
 				85E537AA2B80690E006961DC /* Main.storyboard */,
 				85E537B22B806913006961DC /* LaunchScreen.storyboard */,
 				85E537B52B806913006961DC /* Info.plist */,
@@ -450,7 +447,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				85E537AF2B80690F006961DC /* NeoTour.xcdatamodeld in Sources */,
-				85E537A92B80690E006961DC /* ViewController.swift in Sources */,
 				85E537A52B80690E006961DC /* AppDelegate.swift in Sources */,
 				85E537A72B80690E006961DC /* SceneDelegate.swift in Sources */,
 			);
